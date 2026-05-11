@@ -6,9 +6,7 @@
 //  Copyright © 2017-2020 Braden Scothern. All rights reserved.
 //
 
-#if SWIFT_PACKAGE
 import OnceC
-#endif
 import Foundation
 
 /// A thread safe protection mechanism to ensure that makes sure a block of code only executes once.
